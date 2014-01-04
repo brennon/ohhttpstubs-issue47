@@ -6,29 +6,25 @@
 //  Copyright (c) 2014 Brennon Bortz. All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
+#import "Specta.h"
+#define EXP_SHORTHAND
+#import "Expecta.h"
+#import "OHHTTPStubs.h"
 
-@interface ohhttpstubs_issue47Tests : XCTestCase
+SpecBegin(OHHTTPStubs)
 
-@end
+describe(@"SplashAPIClient", ^{
+    describe(@"basic functionality", ^{
+        it(@"should pass a simple test", ^{
+            expect(YES).to.beTruthy();
+        });
+        
+        it(@"should work well when the app target links against OHHTTPStubs", ^{
+            // Running this test will crash...
+//            [OHHTTPStubs class];
+//            [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+        });
+    });
+});
 
-@implementation ohhttpstubs_issue47Tests
-
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
-
-@end
+SpecEnd

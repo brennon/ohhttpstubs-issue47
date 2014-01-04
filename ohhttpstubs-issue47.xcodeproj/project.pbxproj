@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		119FAB89475D4988B4FC57C4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5308D8F3E784A19952F67DA /* libPods.a */; };
 		3AA8B88D1878BE6300DF53D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA8B88C1878BE6300DF53D6 /* Foundation.framework */; };
 		3AA8B88F1878BE6300DF53D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA8B88E1878BE6300DF53D6 /* CoreGraphics.framework */; };
 		3AA8B8911878BE6300DF53D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA8B8901878BE6300DF53D6 /* UIKit.framework */; };
@@ -19,6 +20,7 @@
 		3AA8B8A81878BE6300DF53D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA8B8901878BE6300DF53D6 /* UIKit.framework */; };
 		3AA8B8B01878BE6300DF53D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AA8B8AE1878BE6300DF53D6 /* InfoPlist.strings */; };
 		3AA8B8B21878BE6300DF53D6 /* ohhttpstubs_issue47Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8B8B11878BE6300DF53D6 /* ohhttpstubs_issue47Tests.m */; };
+		B276A02B37EF443D8F1B4D6D /* libPods-ohhttpstubs-issue47Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4B92159429474B840C8B67 /* libPods-ohhttpstubs-issue47Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		3AA8B8AD1878BE6300DF53D6 /* ohhttpstubs-issue47Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ohhttpstubs-issue47Tests-Info.plist"; sourceTree = "<group>"; };
 		3AA8B8AF1878BE6300DF53D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3AA8B8B11878BE6300DF53D6 /* ohhttpstubs_issue47Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ohhttpstubs_issue47Tests.m; sourceTree = "<group>"; };
+		7DD2170B24914B34B797C7D9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AE4B92159429474B840C8B67 /* libPods-ohhttpstubs-issue47Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ohhttpstubs-issue47Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5BEB2D8A154B6EA83D6C26 /* Pods-ohhttpstubs-issue47Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ohhttpstubs-issue47Tests.xcconfig"; path = "Pods/Pods-ohhttpstubs-issue47Tests.xcconfig"; sourceTree = "<group>"; };
+		D5308D8F3E784A19952F67DA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 				3AA8B88F1878BE6300DF53D6 /* CoreGraphics.framework in Frameworks */,
 				3AA8B8911878BE6300DF53D6 /* UIKit.framework in Frameworks */,
 				3AA8B88D1878BE6300DF53D6 /* Foundation.framework in Frameworks */,
+				119FAB89475D4988B4FC57C4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +75,7 @@
 				3AA8B8A61878BE6300DF53D6 /* XCTest.framework in Frameworks */,
 				3AA8B8A81878BE6300DF53D6 /* UIKit.framework in Frameworks */,
 				3AA8B8A71878BE6300DF53D6 /* Foundation.framework in Frameworks */,
+				B276A02B37EF443D8F1B4D6D /* libPods-ohhttpstubs-issue47Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,8 @@
 				3AA8B8AB1878BE6300DF53D6 /* ohhttpstubs-issue47Tests */,
 				3AA8B88B1878BE6300DF53D6 /* Frameworks */,
 				3AA8B88A1878BE6300DF53D6 /* Products */,
+				7DD2170B24914B34B797C7D9 /* Pods.xcconfig */,
+				CE5BEB2D8A154B6EA83D6C26 /* Pods-ohhttpstubs-issue47Tests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +110,8 @@
 				3AA8B88E1878BE6300DF53D6 /* CoreGraphics.framework */,
 				3AA8B8901878BE6300DF53D6 /* UIKit.framework */,
 				3AA8B8A51878BE6300DF53D6 /* XCTest.framework */,
+				D5308D8F3E784A19952F67DA /* libPods.a */,
+				AE4B92159429474B840C8B67 /* libPods-ohhttpstubs-issue47Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AA8B8B51878BE6300DF53D6 /* Build configuration list for PBXNativeTarget "ohhttpstubs-issue47" */;
 			buildPhases = (
+				7A7CEC29B3C848478FFB7FB9 /* Check Pods Manifest.lock */,
 				3AA8B8851878BE6300DF53D6 /* Sources */,
 				3AA8B8861878BE6300DF53D6 /* Frameworks */,
 				3AA8B8871878BE6300DF53D6 /* Resources */,
+				4F28529130BF4E60A03C5EEC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AA8B8B81878BE6300DF53D6 /* Build configuration list for PBXNativeTarget "ohhttpstubs-issue47Tests" */;
 			buildPhases = (
+				B136CA23EBF945A68C6C40E0 /* Check Pods Manifest.lock */,
 				3AA8B8A01878BE6300DF53D6 /* Sources */,
 				3AA8B8A11878BE6300DF53D6 /* Frameworks */,
 				3AA8B8A21878BE6300DF53D6 /* Resources */,
+				F601F5DA42B34B89B1211CA1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +249,69 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F28529130BF4E60A03C5EEC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A7CEC29B3C848478FFB7FB9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B136CA23EBF945A68C6C40E0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F601F5DA42B34B89B1211CA1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ohhttpstubs-issue47Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3AA8B8851878BE6300DF53D6 /* Sources */ = {
@@ -356,6 +435,7 @@
 		};
 		3AA8B8B61878BE6300DF53D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD2170B24914B34B797C7D9 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -369,6 +449,7 @@
 		};
 		3AA8B8B71878BE6300DF53D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD2170B24914B34B797C7D9 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -382,6 +463,7 @@
 		};
 		3AA8B8B91878BE6300DF53D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5BEB2D8A154B6EA83D6C26 /* Pods-ohhttpstubs-issue47Tests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ohhttpstubs-issue47.app/ohhttpstubs-issue47";
@@ -405,6 +487,7 @@
 		};
 		3AA8B8BA1878BE6300DF53D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5BEB2D8A154B6EA83D6C26 /* Pods-ohhttpstubs-issue47Tests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ohhttpstubs-issue47.app/ohhttpstubs-issue47";
@@ -441,6 +524,7 @@
 				3AA8B8B71878BE6300DF53D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AA8B8B81878BE6300DF53D6 /* Build configuration list for PBXNativeTarget "ohhttpstubs-issue47Tests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +533,7 @@
 				3AA8B8BA1878BE6300DF53D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
