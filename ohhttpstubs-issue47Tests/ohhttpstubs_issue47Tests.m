@@ -21,8 +21,8 @@ describe(@"SplashAPIClient", ^{
         
         it(@"should work well when the app target links against OHHTTPStubs", ^{
             // Running this test will crash...
-//            [OHHTTPStubs class];
-//            [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+            [OHHTTPStubs class];
+            [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
         });
     });
 });
